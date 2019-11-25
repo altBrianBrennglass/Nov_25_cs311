@@ -38,17 +38,18 @@
 
 //MAIN-----------------------
 int main(){	
-	assign_file(current_pow, max_pow, grid, &target_vals, infile);
-	FILE *fp = fopen(outfile, "a");
-	print_matrix(fp);
+	setpath311('3');
+	assign_file(current_pow, max_pow, grid, &target_vals, "/home/student/Desktop/Project3/input-output/turbine_test_input.txt");
+	outfile = fopen(out_path, "a");
+	print_matrix(outfile);
 	define_grid_neighbors(COLCOUNT, ROWCOUNT, neighbors, num_neighbors);
 	init_sem(thread_sem);
 	init_threads(tid, thread, grid);
-	read_results(&target_vals, fp);	
+	read_results(&target_vals, outfile);	
 	stop_timing();
 	printf("wall time: %f, cpu time: %i\n", get_wall_clock_diff(), get_nanodiff());
 	return 0;
 }
 
-//"/home/student/Desktop/Project3/input-output/turbine_test_input.txt"
+//in_path
 

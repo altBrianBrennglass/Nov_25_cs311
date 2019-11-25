@@ -2,9 +2,9 @@
 Reads file and assigns values to the turbines
 --------------------------------------------------------------------*/
 void assign_file(float current_pow[COLCOUNT][ROWCOUNT], float max_pow[COLCOUNT][ROWCOUNT], struct grid_position grid_position[COLCOUNT][ROWCOUNT], struct target_vals *targets, char *path){	
-	FILE *fp;
-	fp = fopen(path, "r");
-	if( fp == NULL){
+	//FILE *fp;
+	infile = fopen(path, "r");
+	if( infile == NULL){
 		printf("could not open file\n");
 		exit(EXIT_FAILURE);
 	}
@@ -16,7 +16,7 @@ void assign_file(float current_pow[COLCOUNT][ROWCOUNT], float max_pow[COLCOUNT][
 	int row;
 	int stage = 0;
 
-	while(fgets(buf, MAX, fp) != NULL){	
+	while(fgets(buf, MAX, infile) != NULL){	
 		char temp_buf[49];
 		strcpy(temp_buf, buf);
 		token = strtok(temp_buf, " \n");
@@ -57,9 +57,9 @@ void assign_file(float current_pow[COLCOUNT][ROWCOUNT], float max_pow[COLCOUNT][
 			token = strtok(NULL, " \n");
 		}
 	}
-	fclose(fp);	
+	fclose(infile);	
 	average /= ROWCOUNT *COLCOUNT;
-	setpath311('2');
+
 	start_timing();
 } 
 
