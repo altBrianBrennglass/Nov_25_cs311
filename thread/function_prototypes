@@ -1,0 +1,11 @@
+void *thread_behavior(void* grid);
+void *thread(void *position);
+void read_results(struct target_vals *rem_requests, FILE *fp);
+void assign_file(float current_pow[COLCOUNT][ROWCOUNT], float max_pow[COLCOUNT][ROWCOUNT], struct grid_position grid_position[COLCOUNT][ROWCOUNT], struct target_vals *targets, char *path);
+void print_matrix(FILE *ptr);
+void define_grid_neighbors(int col, int row, int neighbors[COLCOUNT][ROWCOUNT][4][2], int num_neighbors[COLCOUNT][ROWCOUNT]);
+void define_grid_neighbors(int col, int row, int neighbors[COLCOUNT][ROWCOUNT][4][2], int num_neighbors[COLCOUNT][ROWCOUNT]);
+void init_sem(sem_t sem[COLCOUNT][ROWCOUNT]);
+void init_threads(pthread_t tid[COLCOUNT][ROWCOUNT], void * (*thread_behavior)(void *), struct grid_position grid[COLCOUNT][ROWCOUNT]);
+
+

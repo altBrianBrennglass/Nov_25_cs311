@@ -1,0 +1,217 @@
+current values:
+turbine[0][0] 100.000000| turbine[1][0] 90.000000| turbine[2][0] 80.000000| turbine[3][0] 75.000000| turbine[4][0] 110.000000| 
+turbine[0][1] 100.000000| turbine[1][1] 90.000000| turbine[2][1] 80.000000| turbine[3][1] 75.000000| turbine[4][1] 110.000000| 
+turbine[0][2] 100.000000| turbine[1][2] 90.000000| turbine[2][2] 80.000000| turbine[3][2] 75.000000| turbine[4][2] 110.000000| 
+max values:
+turbine[0][0]110.000000| turbine[1][0]120.000000| turbine[2][0]130.000000| turbine[3][0]140.000000| turbine[4][0]150.000000| 
+turbine[0][1]110.000000| turbine[1][1]120.000000| turbine[2][1]130.000000| turbine[3][1]140.000000| turbine[4][1]150.000000| 
+turbine[0][2]110.000000| turbine[1][2]120.000000| turbine[2][2]130.000000| turbine[3][2]140.000000| turbine[4][2]150.000000| 
+target_value = 110.000000
+current values:
+turbine[0][0] 96.666664| turbine[1][0] 90.000000| turbine[2][0] 81.250000| turbine[3][0] 85.000000| turbine[4][0] 98.333336| 
+turbine[0][1] 97.500000| turbine[1][1] 90.000000| turbine[2][1] 81.000000| turbine[3][1] 83.000000| turbine[4][1] 101.250000| 
+turbine[0][2] 96.666664| turbine[1][2] 90.000000| turbine[2][2] 81.250000| turbine[3][2] 85.000000| turbine[4][2] 98.333336| 
+max values:
+turbine[0][0]110.000000| turbine[1][0]120.000000| turbine[2][0]130.000000| turbine[3][0]140.000000| turbine[4][0]150.000000| 
+turbine[0][1]110.000000| turbine[1][1]120.000000| turbine[2][1]130.000000| turbine[3][1]140.000000| turbine[4][1]150.000000| 
+turbine[0][2]110.000000| turbine[1][2]120.000000| turbine[2][2]130.000000| turbine[3][2]140.000000| turbine[4][2]150.000000| 
+target_value = 110.000000
+current values:
+turbine[0][0] 126.944435| turbine[1][0] 111.979164| turbine[2][0] 104.625000| turbine[3][0] 108.145836| turbine[4][0] 127.638893| 
+turbine[0][1] 119.583328| turbine[1][1] 107.699997| turbine[2][1] 99.500000| turbine[3][1] 103.650002| turbine[4][1] 120.541672| 
+turbine[0][2] 126.944435| turbine[1][2] 111.979164| turbine[2][2] 104.625000| turbine[3][2] 108.145836| turbine[4][2] 127.638893| 
+max values:
+turbine[0][0]110.000000| turbine[1][0]120.000000| turbine[2][0]130.000000| turbine[3][0]140.000000| turbine[4][0]150.000000| 
+turbine[0][1]110.000000| turbine[1][1]120.000000| turbine[2][1]130.000000| turbine[3][1]140.000000| turbine[4][1]150.000000| 
+turbine[0][2]110.000000| turbine[1][2]120.000000| turbine[2][2]130.000000| turbine[3][2]140.000000| turbine[4][2]150.000000| 
+target_value = 120.000000
+current values:
+turbine[0][0] 113.271988| turbine[1][0] 98.564850| turbine[2][0] 92.553123| turbine[3][0] 96.635971| turbine[4][0] 112.925232| 
+turbine[0][1] 105.132225| turbine[1][1] 92.181824| turbine[2][1] 86.743996| turbine[3][1] 90.108681| turbine[4][1] 105.001945| 
+turbine[0][2] 113.271988| turbine[1][2] 98.564865| turbine[2][2] 92.553123| turbine[3][2] 96.635971| turbine[4][2] 112.925232| 
+max values:
+turbine[0][0]110.000000| turbine[1][0]120.000000| turbine[2][0]130.000000| turbine[3][0]140.000000| turbine[4][0]150.000000| 
+turbine[0][1]110.000000| turbine[1][1]120.000000| turbine[2][1]130.000000| turbine[3][1]140.000000| turbine[4][1]150.000000| 
+turbine[0][2]110.000000| turbine[1][2]120.000000| turbine[2][2]130.000000| turbine[3][2]140.000000| turbine[4][2]150.000000| 
+target_value = 90.000000
+current values:
+turbine[0][0] 100.389580| turbine[1][0] 86.648911| turbine[2][0] 81.733932| turbine[3][0] 85.550323| turbine[4][0] 99.747299| 
+turbine[0][1] 92.573288| turbine[1][1] 80.271751| turbine[2][1] 75.723869| turbine[3][1] 79.132927| turbine[4][1] 92.043526| 
+turbine[0][2] 100.389580| turbine[1][2] 86.648918| turbine[2][2] 81.733948| turbine[3][2] 85.550323| turbine[4][2] 99.747299| 
+max values:
+turbine[0][0]110.000000| turbine[1][0]120.000000| turbine[2][0]130.000000| turbine[3][0]140.000000| turbine[4][0]150.000000| 
+turbine[0][1]110.000000| turbine[1][1]120.000000| turbine[2][1]130.000000| turbine[3][1]140.000000| turbine[4][1]150.000000| 
+turbine[0][2]110.000000| turbine[1][2]120.000000| turbine[2][2]130.000000| turbine[3][2]140.000000| turbine[4][2]150.000000| 
+target_value = 80.000000
+current values:
+turbine[0][0] 126.667114| turbine[1][0] 108.923279| turbine[2][0] 102.847748| turbine[3][0] 107.928703| turbine[4][0] 125.696144| 
+turbine[0][1] 116.549377| turbine[1][1] 100.427704| turbine[2][1] 94.864059| turbine[3][1] 99.426781| turbine[4][1] 115.678650| 
+turbine[0][2] 126.667122| turbine[1][2] 108.923279| turbine[2][2] 102.847755| turbine[3][2] 107.928703| turbine[4][2] 125.696144| 
+max values:
+turbine[0][0]110.000000| turbine[1][0]120.000000| turbine[2][0]130.000000| turbine[3][0]140.000000| turbine[4][0]150.000000| 
+turbine[0][1]110.000000| turbine[1][1]120.000000| turbine[2][1]130.000000| turbine[3][1]140.000000| turbine[4][1]150.000000| 
+turbine[0][2]110.000000| turbine[1][2]120.000000| turbine[2][2]130.000000| turbine[3][2]140.000000| turbine[4][2]150.000000| 
+target_value = 95.000000
+current values:
+turbine[0][0] 111.721603| turbine[1][0] 95.863098| turbine[2][0] 90.547012| turbine[3][0] 95.169914| turbine[4][0] 110.833244| 
+turbine[0][1] 102.700623| turbine[1][1] 88.216148| turbine[2][1] 83.338936| turbine[3][1] 87.535515| turbine[4][1] 101.880867| 
+turbine[0][2] 111.721603| turbine[1][2] 95.863098| turbine[2][2] 90.547020| turbine[3][2] 95.169914| turbine[4][2] 110.833244| 
+max values:
+turbine[0][0]110.000000| turbine[1][0]120.000000| turbine[2][0]130.000000| turbine[3][0]140.000000| turbine[4][0]150.000000| 
+turbine[0][1]110.000000| turbine[1][1]120.000000| turbine[2][1]130.000000| turbine[3][1]140.000000| turbine[4][1]150.000000| 
+turbine[0][2]110.000000| turbine[1][2]120.000000| turbine[2][2]130.000000| turbine[3][2]140.000000| turbine[4][2]150.000000| 
+target_value = 90.000000
+current values:
+turbine[0][0] 100.000000| turbine[1][0] 90.000000| turbine[2][0] 80.000000| turbine[3][0] 75.000000| turbine[4][0] 110.000000| 
+turbine[0][1] 100.000000| turbine[1][1] 90.000000| turbine[2][1] 80.000000| turbine[3][1] 75.000000| turbine[4][1] 110.000000| 
+turbine[0][2] 100.000000| turbine[1][2] 90.000000| turbine[2][2] 80.000000| turbine[3][2] 75.000000| turbine[4][2] 110.000000| 
+max values:
+turbine[0][0]110.000000| turbine[1][0]120.000000| turbine[2][0]130.000000| turbine[3][0]140.000000| turbine[4][0]150.000000| 
+turbine[0][1]110.000000| turbine[1][1]120.000000| turbine[2][1]130.000000| turbine[3][1]140.000000| turbine[4][1]150.000000| 
+turbine[0][2]110.000000| turbine[1][2]120.000000| turbine[2][2]130.000000| turbine[3][2]140.000000| turbine[4][2]150.000000| 
+target_value = 110.000000
+current values:
+turbine[0][0] 96.666664| turbine[1][0] 90.000000| turbine[2][0] 81.250000| turbine[3][0] 85.000000| turbine[4][0] 98.333336| 
+turbine[0][1] 97.500000| turbine[1][1] 90.000000| turbine[2][1] 81.000000| turbine[3][1] 83.000000| turbine[4][1] 101.250000| 
+turbine[0][2] 96.666664| turbine[1][2] 90.000000| turbine[2][2] 81.250000| turbine[3][2] 85.000000| turbine[4][2] 98.333336| 
+max values:
+turbine[0][0]110.000000| turbine[1][0]120.000000| turbine[2][0]130.000000| turbine[3][0]140.000000| turbine[4][0]150.000000| 
+turbine[0][1]110.000000| turbine[1][1]120.000000| turbine[2][1]130.000000| turbine[3][1]140.000000| turbine[4][1]150.000000| 
+turbine[0][2]110.000000| turbine[1][2]120.000000| turbine[2][2]130.000000| turbine[3][2]140.000000| turbine[4][2]150.000000| 
+target_value = 110.000000
+current values:
+turbine[0][0] 126.944435| turbine[1][0] 111.979164| turbine[2][0] 104.625000| turbine[3][0] 108.145836| turbine[4][0] 127.638893| 
+turbine[0][1] 119.583328| turbine[1][1] 107.699997| turbine[2][1] 99.500000| turbine[3][1] 103.650002| turbine[4][1] 120.541672| 
+turbine[0][2] 126.944435| turbine[1][2] 111.979164| turbine[2][2] 104.625000| turbine[3][2] 108.145836| turbine[4][2] 127.638893| 
+max values:
+turbine[0][0]110.000000| turbine[1][0]120.000000| turbine[2][0]130.000000| turbine[3][0]140.000000| turbine[4][0]150.000000| 
+turbine[0][1]110.000000| turbine[1][1]120.000000| turbine[2][1]130.000000| turbine[3][1]140.000000| turbine[4][1]150.000000| 
+turbine[0][2]110.000000| turbine[1][2]120.000000| turbine[2][2]130.000000| turbine[3][2]140.000000| turbine[4][2]150.000000| 
+target_value = 120.000000
+current values:
+turbine[0][0] 113.271988| turbine[1][0] 98.564850| turbine[2][0] 92.553123| turbine[3][0] 96.635971| turbine[4][0] 112.925232| 
+turbine[0][1] 105.132225| turbine[1][1] 92.181824| turbine[2][1] 86.743996| turbine[3][1] 90.108681| turbine[4][1] 105.001945| 
+turbine[0][2] 113.271988| turbine[1][2] 98.564865| turbine[2][2] 92.553123| turbine[3][2] 96.635971| turbine[4][2] 112.925232| 
+max values:
+turbine[0][0]110.000000| turbine[1][0]120.000000| turbine[2][0]130.000000| turbine[3][0]140.000000| turbine[4][0]150.000000| 
+turbine[0][1]110.000000| turbine[1][1]120.000000| turbine[2][1]130.000000| turbine[3][1]140.000000| turbine[4][1]150.000000| 
+turbine[0][2]110.000000| turbine[1][2]120.000000| turbine[2][2]130.000000| turbine[3][2]140.000000| turbine[4][2]150.000000| 
+target_value = 90.000000
+current values:
+turbine[0][0] 100.389580| turbine[1][0] 86.648911| turbine[2][0] 81.733932| turbine[3][0] 85.550323| turbine[4][0] 99.747299| 
+turbine[0][1] 92.573288| turbine[1][1] 80.271751| turbine[2][1] 75.723869| turbine[3][1] 79.132927| turbine[4][1] 92.043526| 
+turbine[0][2] 100.389580| turbine[1][2] 86.648918| turbine[2][2] 81.733948| turbine[3][2] 85.550323| turbine[4][2] 99.747299| 
+max values:
+turbine[0][0]110.000000| turbine[1][0]120.000000| turbine[2][0]130.000000| turbine[3][0]140.000000| turbine[4][0]150.000000| 
+turbine[0][1]110.000000| turbine[1][1]120.000000| turbine[2][1]130.000000| turbine[3][1]140.000000| turbine[4][1]150.000000| 
+turbine[0][2]110.000000| turbine[1][2]120.000000| turbine[2][2]130.000000| turbine[3][2]140.000000| turbine[4][2]150.000000| 
+target_value = 80.000000
+current values:
+turbine[0][0] 126.667114| turbine[1][0] 108.923279| turbine[2][0] 102.847748| turbine[3][0] 107.928703| turbine[4][0] 125.696144| 
+turbine[0][1] 116.549377| turbine[1][1] 100.427704| turbine[2][1] 94.864059| turbine[3][1] 99.426781| turbine[4][1] 115.678650| 
+turbine[0][2] 126.667122| turbine[1][2] 108.923279| turbine[2][2] 102.847755| turbine[3][2] 107.928703| turbine[4][2] 125.696144| 
+max values:
+turbine[0][0]110.000000| turbine[1][0]120.000000| turbine[2][0]130.000000| turbine[3][0]140.000000| turbine[4][0]150.000000| 
+turbine[0][1]110.000000| turbine[1][1]120.000000| turbine[2][1]130.000000| turbine[3][1]140.000000| turbine[4][1]150.000000| 
+turbine[0][2]110.000000| turbine[1][2]120.000000| turbine[2][2]130.000000| turbine[3][2]140.000000| turbine[4][2]150.000000| 
+target_value = 95.000000
+current values:
+turbine[0][0] 111.721603| turbine[1][0] 95.863098| turbine[2][0] 90.547012| turbine[3][0] 95.169914| turbine[4][0] 110.833244| 
+turbine[0][1] 102.700623| turbine[1][1] 88.216148| turbine[2][1] 83.338936| turbine[3][1] 87.535515| turbine[4][1] 101.880867| 
+turbine[0][2] 111.721603| turbine[1][2] 95.863098| turbine[2][2] 90.547020| turbine[3][2] 95.169914| turbine[4][2] 110.833244| 
+max values:
+turbine[0][0]110.000000| turbine[1][0]120.000000| turbine[2][0]130.000000| turbine[3][0]140.000000| turbine[4][0]150.000000| 
+turbine[0][1]110.000000| turbine[1][1]120.000000| turbine[2][1]130.000000| turbine[3][1]140.000000| turbine[4][1]150.000000| 
+turbine[0][2]110.000000| turbine[1][2]120.000000| turbine[2][2]130.000000| turbine[3][2]140.000000| turbine[4][2]150.000000| 
+target_value = 90.000000
+current values:
+turbine[0][0] 100.000000| turbine[1][0] 90.000000| turbine[2][0] 80.000000| turbine[3][0] 75.000000| turbine[4][0] 110.000000| 
+turbine[0][1] 100.000000| turbine[1][1] 90.000000| turbine[2][1] 80.000000| turbine[3][1] 75.000000| turbine[4][1] 110.000000| 
+turbine[0][2] 100.000000| turbine[1][2] 90.000000| turbine[2][2] 80.000000| turbine[3][2] 75.000000| turbine[4][2] 110.000000| 
+max values:
+turbine[0][0]110.000000| turbine[1][0]120.000000| turbine[2][0]130.000000| turbine[3][0]140.000000| turbine[4][0]150.000000| 
+turbine[0][1]110.000000| turbine[1][1]120.000000| turbine[2][1]130.000000| turbine[3][1]140.000000| turbine[4][1]150.000000| 
+turbine[0][2]110.000000| turbine[1][2]120.000000| turbine[2][2]130.000000| turbine[3][2]140.000000| turbine[4][2]150.000000| 
+target_value = 110.000000
+current values:
+turbine[0][0] 96.666664| turbine[1][0] 90.000000| turbine[2][0] 81.250000| turbine[3][0] 85.000000| turbine[4][0] 98.333336| 
+turbine[0][1] 97.500000| turbine[1][1] 90.000000| turbine[2][1] 81.000000| turbine[3][1] 83.000000| turbine[4][1] 101.250000| 
+turbine[0][2] 96.666664| turbine[1][2] 90.000000| turbine[2][2] 81.250000| turbine[3][2] 85.000000| turbine[4][2] 98.333336| 
+max values:
+turbine[0][0]110.000000| turbine[1][0]120.000000| turbine[2][0]130.000000| turbine[3][0]140.000000| turbine[4][0]150.000000| 
+turbine[0][1]110.000000| turbine[1][1]120.000000| turbine[2][1]130.000000| turbine[3][1]140.000000| turbine[4][1]150.000000| 
+turbine[0][2]110.000000| turbine[1][2]120.000000| turbine[2][2]130.000000| turbine[3][2]140.000000| turbine[4][2]150.000000| 
+target_value = 110.000000
+current values:
+turbine[0][0] 126.944435| turbine[1][0] 111.979164| turbine[2][0] 104.625000| turbine[3][0] 108.145836| turbine[4][0] 127.638893| 
+turbine[0][1] 119.583328| turbine[1][1] 107.699997| turbine[2][1] 99.500000| turbine[3][1] 103.650002| turbine[4][1] 120.541672| 
+turbine[0][2] 126.944435| turbine[1][2] 111.979164| turbine[2][2] 104.625000| turbine[3][2] 108.145836| turbine[4][2] 127.638893| 
+max values:
+turbine[0][0]110.000000| turbine[1][0]120.000000| turbine[2][0]130.000000| turbine[3][0]140.000000| turbine[4][0]150.000000| 
+turbine[0][1]110.000000| turbine[1][1]120.000000| turbine[2][1]130.000000| turbine[3][1]140.000000| turbine[4][1]150.000000| 
+turbine[0][2]110.000000| turbine[1][2]120.000000| turbine[2][2]130.000000| turbine[3][2]140.000000| turbine[4][2]150.000000| 
+target_value = 120.000000
+current values:
+turbine[0][0] 113.271988| turbine[1][0] 98.564850| turbine[2][0] 92.553123| turbine[3][0] 96.635971| turbine[4][0] 112.925232| 
+turbine[0][1] 105.132225| turbine[1][1] 92.181824| turbine[2][1] 86.743996| turbine[3][1] 90.108681| turbine[4][1] 105.001945| 
+turbine[0][2] 113.271988| turbine[1][2] 98.564865| turbine[2][2] 92.553123| turbine[3][2] 96.635971| turbine[4][2] 112.925232| 
+max values:
+turbine[0][0]110.000000| turbine[1][0]120.000000| turbine[2][0]130.000000| turbine[3][0]140.000000| turbine[4][0]150.000000| 
+turbine[0][1]110.000000| turbine[1][1]120.000000| turbine[2][1]130.000000| turbine[3][1]140.000000| turbine[4][1]150.000000| 
+turbine[0][2]110.000000| turbine[1][2]120.000000| turbine[2][2]130.000000| turbine[3][2]140.000000| turbine[4][2]150.000000| 
+target_value = 90.000000
+current values:
+turbine[0][0] 100.389580| turbine[1][0] 86.648911| turbine[2][0] 81.733932| turbine[3][0] 85.550323| turbine[4][0] 99.747299| 
+turbine[0][1] 92.573288| turbine[1][1] 80.271751| turbine[2][1] 75.723869| turbine[3][1] 79.132927| turbine[4][1] 92.043526| 
+turbine[0][2] 100.389580| turbine[1][2] 86.648918| turbine[2][2] 81.733948| turbine[3][2] 85.550323| turbine[4][2] 99.747299| 
+max values:
+turbine[0][0]110.000000| turbine[1][0]120.000000| turbine[2][0]130.000000| turbine[3][0]140.000000| turbine[4][0]150.000000| 
+turbine[0][1]110.000000| turbine[1][1]120.000000| turbine[2][1]130.000000| turbine[3][1]140.000000| turbine[4][1]150.000000| 
+turbine[0][2]110.000000| turbine[1][2]120.000000| turbine[2][2]130.000000| turbine[3][2]140.000000| turbine[4][2]150.000000| 
+target_value = 80.000000
+current values:
+turbine[0][0] 126.667114| turbine[1][0] 108.923279| turbine[2][0] 102.847748| turbine[3][0] 107.928703| turbine[4][0] 125.696144| 
+turbine[0][1] 116.549377| turbine[1][1] 100.427704| turbine[2][1] 94.864059| turbine[3][1] 99.426781| turbine[4][1] 115.678650| 
+turbine[0][2] 126.667122| turbine[1][2] 108.923279| turbine[2][2] 102.847755| turbine[3][2] 107.928703| turbine[4][2] 125.696144| 
+max values:
+turbine[0][0]110.000000| turbine[1][0]120.000000| turbine[2][0]130.000000| turbine[3][0]140.000000| turbine[4][0]150.000000| 
+turbine[0][1]110.000000| turbine[1][1]120.000000| turbine[2][1]130.000000| turbine[3][1]140.000000| turbine[4][1]150.000000| 
+turbine[0][2]110.000000| turbine[1][2]120.000000| turbine[2][2]130.000000| turbine[3][2]140.000000| turbine[4][2]150.000000| 
+target_value = 95.000000
+current values:
+turbine[0][0] 111.721603| turbine[1][0] 95.863098| turbine[2][0] 90.547012| turbine[3][0] 95.169914| turbine[4][0] 110.833244| 
+turbine[0][1] 102.700623| turbine[1][1] 88.216148| turbine[2][1] 83.338936| turbine[3][1] 87.535515| turbine[4][1] 101.880867| 
+turbine[0][2] 111.721603| turbine[1][2] 95.863098| turbine[2][2] 90.547020| turbine[3][2] 95.169914| turbine[4][2] 110.833244| 
+max values:
+turbine[0][0]110.000000| turbine[1][0]120.000000| turbine[2][0]130.000000| turbine[3][0]140.000000| turbine[4][0]150.000000| 
+turbine[0][1]110.000000| turbine[1][1]120.000000| turbine[2][1]130.000000| turbine[3][1]140.000000| turbine[4][1]150.000000| 
+turbine[0][2]110.000000| turbine[1][2]120.000000| turbine[2][2]130.000000| turbine[3][2]140.000000| turbine[4][2]150.000000| 
+target_value = 90.000000
+max values:
+
+
+
+max values:
+
+
+
+max values:
+
+
+
+max values:
+
+
+
+max values:
+
+
+
+max values:
+
+
+
+max values:
+
+
+
