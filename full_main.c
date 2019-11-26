@@ -247,26 +247,29 @@ void collecting_sums(struct grid_position *turbine){
 
 	 //store new power into sum variable after performing a series of equations
 void calc_sum_average(struct grid_position *turbine){
-	 sum[turbine->col][turbine->row] += current_pow[turbine->col][turbine->row];
-	 sum[turbine->col][turbine->row] /= num_neighbors[turbine->col][turbine->row] + 1;
-	 if(target_vals.values[target_vals.current_target] < average){
-	 	if(sum[turbine->col][turbine->row] < target_vals.values[target_vals.current_target]){
-			    //printf("sum <  | %f [%i][%i]\n", sum[turbine->col][turbine->row], turbine->col, turbine->row);
-			    sum[turbine->col][turbine->row] + .3 * sum[turbine->col][turbine->row] > max_pow[turbine->col][turbine->row]? 
-											   sum[turbine->col][turbine->row] = max_pow[turbine->col][turbine->row]:
-			                                       (sum[turbine->col][turbine->row] += .3 * sum[turbine->col][turbine->row]);
-		}
-	     else{
-		 	if(sum[turbine->col][turbine->row] > target_vals.values[target_vals.current_target]){
-					  //printf("sum >  | %f [%i][%i]\n", sum[turbine->col][turbine->row], turbine->col, turbine->row);
-				       sum[turbine->col][turbine->row] - .3 * sum[turbine->col][turbine->row] < 0?
-													 sum[turbine->col][turbine->row] = 0:
-					  (sum[turbine->col][turbine->row] -= .3 * sum[turbine->col][turbine->row]);
-			}
-		}
+	float turbine_avg = sum[turbine->col][turbine->row];
+	float current_power = current_pow[turbine->col][turbine->row];
+	int number_neighbors = num_neighbors[turbine->col][turbine->row];
+
+	turbine_avg += current_power;
+	turbine_avg /= number_neighbors + 1;
+
+	int target_value = target_vals.values[target_vals.current_target];
+	float max_power = max_pow[turbine->col][turbine->row];	
+
+//The actual equation----------------------------------------------------------------------------------------------
+ 	if(turbine_avg < target_value){
+		    //printf("sum <  | %f [%i][%i]\n", sum[turbine->col][turbine->row], turbine->col, turbine->row);
+		    turbine_avg * 1.3 > max_power? turbine_avg = max_power : (turbine_avg *= 1.3);
 	}
+     else if(turbine_avg > target_value){
+	 		//printf("sum >  | %f [%i][%i]\n", sum[turbine->col][turbine->row], turbine->col, turbine->row);
+			turbine_avg - (.3 * turbine_avg) < 0 ? turbine_avg = 0 : (turbine_avg *= (1-.3));
+	}
+
+	sum[turbine->col][turbine->row] = turbine_avg;
 }
-#include "thread/calc_sum_library/v1.h"
+//#include "thread/calc_sum_library/v1.h"
 
 
 void update_turbine_power(struct grid_position *turbine){
@@ -346,6 +349,7 @@ float new_average(){
 }
 
 
+
 /*------------------------------------------------------------------
 Prints the matrix
 --------------------------------------------------------------------*/
@@ -386,7 +390,6 @@ void print_matrix(FILE *ptr){
 
 	target_vals.current_target++;
 }
-
 
 
 /*------------------------------------------------------------------

@@ -25,8 +25,8 @@
 #include "init/init_threads.h"
 
 #include "thread/collecting_sums.h"
-//#include "thread/calc_sum_average.h"
-#include "thread/calc_sum_library/v1.h"
+#include "thread/calc_sum_average.h"
+//#include "thread/calc_sum_library/v1.h"
 #include "thread/update_turbine_power.h"
 #include "thread/sleep_until_broadcast.h"
 	#include "thread/thread_behavior.h"
