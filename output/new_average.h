@@ -14,5 +14,6 @@ float new_average(){
 					average += current_pow[col][row];
 				}
 			}
-	return average /= ROWCOUNT*COLCOUNT;
-}
+	average /= ROWCOUNT*COLCOUNT;
+	return average ;
+}//> target_vals.values[target_vals.current_target] ? average *= .7 : (average *= 1.3)

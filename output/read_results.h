@@ -25,6 +25,7 @@ void read_results(struct target_vals *rem_requests, FILE *fp){
 			ready_to_print = ROWCOUNT * COLCOUNT;
 			//rem_requests->current_target++;
 			//printf("current_target = %i\n\n", rem_requests->current_target);
+			i = 0;
 			pthread_cond_broadcast(&received_broadcast);
 		pthread_mutex_unlock(&controller);
 	}

@@ -6,7 +6,7 @@ void print_matrix(FILE *ptr){
 	int row;
 	//fprintf(ptr, "current values:\n");
 
-	printf("\ncurrent_target = %i\n\n", target_vals.current_target);
+	printf("\ncurrent_target = %i\n\n", target_vals.current_target+1);
 	printf("target_value = %f\n\n", target_vals.values[target_vals.current_target]);
 	printf("current values:\n\n");
 
