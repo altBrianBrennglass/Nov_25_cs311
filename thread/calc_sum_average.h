@@ -13,12 +13,12 @@ void calc_sum_average(struct grid_position *turbine){
 //The actual equation----------------------------------------------------------------------------------------------
  	if(turbine_avg < target_value){
 		    //printf("sum <  | %f [%i][%i]\n", sum[turbine->col][turbine->row], turbine->col, turbine->row);
-		    turbine_avg * 1.3 > max_power? turbine_avg = max_power : (turbine_avg *= 1.3);
+		    current_power + .3 * turbine_avg > max_power? current_power = max_power : (current_power += .3 * turbine_avg);
 	}
      else if(turbine_avg > target_value){
 	 		//printf("sum >  | %f [%i][%i]\n", sum[turbine->col][turbine->row], turbine->col, turbine->row);
-			turbine_avg - (.3 * turbine_avg) < 0 ? turbine_avg = 0 : (turbine_avg *= (1-.3));
+		    current_power - .3 * turbine_avg < 0 ? current_power = 0 : (current_power -= .3 * turbine_avg);
 	}
 
-	sum[turbine->col][turbine->row] = turbine_avg;
+	sum[turbine->col][turbine->row] = current_power;
 }

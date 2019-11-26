@@ -260,16 +260,15 @@ void calc_sum_average(struct grid_position *turbine){
 //The actual equation----------------------------------------------------------------------------------------------
  	if(turbine_avg < target_value){
 		    //printf("sum <  | %f [%i][%i]\n", sum[turbine->col][turbine->row], turbine->col, turbine->row);
-		    turbine_avg * 1.3 > max_power? turbine_avg = max_power : (turbine_avg *= 1.3);
+		    current_power + .3 * turbine_avg > max_power? current_power = max_power : (current_power += .3 * turbine_avg);
 	}
      else if(turbine_avg > target_value){
 	 		//printf("sum >  | %f [%i][%i]\n", sum[turbine->col][turbine->row], turbine->col, turbine->row);
-			turbine_avg - (.3 * turbine_avg) < 0 ? turbine_avg = 0 : (turbine_avg *= (1-.3));
+		    current_power - .3 * turbine_avg < 0 ? current_power = 0 : (current_power -= .3 * turbine_avg);
 	}
 
-	sum[turbine->col][turbine->row] = turbine_avg;
+	sum[turbine->col][turbine->row] = current_power;
 }
-//#include "thread/calc_sum_library/v1.h"
 
 
 void update_turbine_power(struct grid_position *turbine){
@@ -356,37 +355,33 @@ Prints the matrix
 void print_matrix(FILE *ptr){
 	int col;
 	int row;
-	//fprintf(ptr, "current values:\n");
 
-	printf("\ncurrent_target = %i\n\n", target_vals.current_target);
-	printf("target_value = %f\n\n", target_vals.values[target_vals.current_target]);
-	printf("current values:\n\n");
 
-	for(row = 0; row < ROWCOUNT; row++){
-		for(col = 0; col < COLCOUNT; col++){
-			//fprintf(ptr, "turbine[%i][%i] %f| ", col, row, current_pow[col][row]);
-			printf("turbine[%i][%i]%f| ", col, row, current_pow[col][row]);
-		}
-		printf("\n\n");
-	}
-	printf("\n\n");
-
-	//fprintf(ptr, "max values:\n");
-
-	printf("max values:\n\n");
+	fprintf(ptr, "\ncurrent_target = %i\n", target_vals.current_target+1);
+	fprintf(ptr, "target_value = %.2f\n\n", target_vals.values[target_vals.current_target]);
+	fprintf(ptr, "current values:\n");
 
 	for(row = 0; row < ROWCOUNT; row++){
 		for(col = 0; col < COLCOUNT; col++){
-			//fprintf(ptr, "turbine[%i][%i]%f| ", col, row, max_pow[col][row]);
-			printf("turbine[%i][%i]%f| ", col, row, max_pow[col][row]);
+			fprintf(ptr, "turbine[%i][%i] %.2f| ", col, row, current_pow[col][row]);
 		}
-		//fprintf(ptr,"\n");
-		printf("\n\n");
+		fprintf(ptr,"\n");
 	}
-	printf("\n\n");
+	fprintf(ptr,"\n\n");
 
-	printf("AVERAGE: %f\n\n",new_average());
-	printf("-------------------------------------------------------------------------\n\n\n");
+
+	fprintf(ptr, "max values:\n");
+
+	for(row = 0; row < ROWCOUNT; row++){
+		for(col = 0; col < COLCOUNT; col++){
+			fprintf(ptr, "turbine[%i][%i]%.2f| ", col, row, max_pow[col][row]);
+		}
+		fprintf(ptr, "\n");
+	}
+	fprintf(ptr, "\n\n");
+
+	fprintf(ptr, "AVERAGE: %f\n\n",new_average());
+	fprintf(ptr, "***********************************************\n\n\n");
 
 	target_vals.current_target++;
 }
@@ -429,7 +424,7 @@ void read_results(struct target_vals *rem_requests, FILE *fp){
 //MAIN-----------------------
 int main(){	
 	setpath311('3');
-	assign_file(current_pow, max_pow, grid, &target_vals, "/home/student/Desktop/Project3/input-output/turbine_test_input.txt");
+	assign_file(current_pow, max_pow, grid, &target_vals, in_path);
 	outfile = fopen(out_path, "a");
 	print_matrix(outfile);
 	define_grid_neighbors(COLCOUNT, ROWCOUNT, neighbors, num_neighbors);
