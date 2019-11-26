@@ -16,6 +16,10 @@
 	#include <stdio.h>
 #endif
 
+
+
+
+
 //GLOBAL VARIABLES-------------------------------------------------------------------------------------
 	/*CONTROL VARIABLES FOR THREADS
 		thread_mux | used for preventing the a neighbor from changing its value until all its neighbors have accessed its values
@@ -262,7 +266,7 @@ void calc_sum_average(struct grid_position *turbine){
 		}
 	}
 }
-//#include "thread/calc_sum_library/v1.h"
+#include "thread/calc_sum_library/v1.h"
 
 
 void update_turbine_power(struct grid_position *turbine){
@@ -420,10 +424,9 @@ void read_results(struct target_vals *rem_requests, FILE *fp){
 
 
 //MAIN-----------------------
-int main(){
+int main(){	
 	setpath311('3');
-	printf("in_path = %s | out_path = %s\n",in_path, out_path);
-	assign_file(current_pow, max_pow, grid, &target_vals, out_path);
+	assign_file(current_pow, max_pow, grid, &target_vals, "/home/student/Desktop/Project3/input-output/turbine_test_input.txt");
 	outfile = fopen(out_path, "a");
 	print_matrix(outfile);
 	define_grid_neighbors(COLCOUNT, ROWCOUNT, neighbors, num_neighbors);
@@ -433,7 +436,6 @@ int main(){
 	stop_timing();
 	printf("wall time: %f, cpu time: %i\n", get_wall_clock_diff(), get_nanodiff());
 	return 0;
-
 }
 
 //in_path
